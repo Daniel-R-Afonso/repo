@@ -3,15 +3,12 @@
 }
 <h2>@ViewBag.Title.</h2>
 <h3>@ViewBag.Message</h3>
-
-<address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
-</address>
-
-<address>
-    <strong>Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
-    <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
-</address>
+<script src="~/Scripts/maputil.js"></script>
+<script src="~/Scripts/mapper.js"></script>
+<script src="~/Scripts/jquery-1.10.2.js"></script>
+   <div class="demo">
+            <img id="map" src="@Url.Content("~/Images/portugal23.gif")" border="0" alt="Portugal" usemap="#map_of_portugal" />
+    </div>
+<map name="map_of_portugal" >
+    <area shape="poly" alt="Viana" id="ShapeViana" title="Viana" style="fill:green; stroke:green;" coords="384,97,395,89,409,78,422,65,427,58,433,50,439,47,450,47,457,41,468,39,476,41,487,38,493,35,508,28,522,23,525,41,533,38,541,46,544,55,533,62,525,71,522,84,522,92,527,106,525,111,514,117,506,124,490,125,482,124,471,132,463,133,458,133,455,141,455,149,452,160,449,162,442,162,436,160,431,159,423,160,414,160,406,168,398,170,395,170,393,160,393,149,387,145,382,133,385,114,382,101,387,97" href="@Url.Action("getDistrict", "Home", new { IdDistrict = 1 })" />
+</map>
