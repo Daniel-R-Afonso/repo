@@ -1,34 +1,22 @@
 ﻿@{
     ViewBag.Title = "Home Page";
 }
-<script src="~/Scripts/jquery-1.10.2.js"></script>
-<script src="http://dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0&mkt=pt-PT" type="text/javascript"></script>
-<body onload="OnPageLoad()">
-    <form action="">
-        
 
-        <script language="javascript" type="text/javascript">
-            $(document).ready(function () {
-                var map = null;
-                function LoadMap() {
-                    map = new Microsoft.Maps.Map(
-                        document.getElementById('myMap'),
-                        {
-                            credentials: "Ai2YaUnWLHGqJ3qMvxN4VRFrWbd4l8WBbxeB0nn8msfSss9xUSne2__s_gmGcSBg",
-                            enableClickableLogo: false,
-                            showDashboard: false,
-                            zoom: 7,
-                            center: new Microsoft.Maps.Location(39.68594535185488, -8.491974121657469),
-                            labelOverlay: Microsoft.Maps.LabelOverlay.hidden,
-                            mapTypeId: Microsoft.Maps.MapTypeId.road
-                    });
-                 }
-                 LoadMap();
-            });
-            
-        </script>
-        <div id="myMap" style="position:relative; width:900px; height:650px;">
-
+<div class="container">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-sm-7"> 
+             <img id="map" src="@Url.Content("~/Images/compass.jpg")" border="0" padding="10px" alt="compass" /> 
+             <p> cenas 1 2 3 4 5 6 7 8</p>
         </div>
-    </form>
-</body>
+        <div class="col-sm-2"> 
+            <div class="container-fluid">
+                   <button type="button" class="btn btn-primary cenas1">cenas1</button>
+                </div>
+            <div class="container-fluid">
+                <button type="button" class="btn btn-primary cenas2">cenas2</button>
+             </div> 
+        </div>
+    
+    </div>
+</div>
