@@ -198,6 +198,8 @@
     <Content Include="Content\Site.css" />
     <Content Include="Images\braga.gif" />
     <Content Include="Images\bragança.jpg" />
+    <Content Include="Images\Layout\greenboard.png" />
+    <Content Include="Images\Layout\rosaVentos.jpg" />
     <Content Include="Images\mapa_regioes.png" />
     <Content Include="Images\portugal23.gif" />
     <Content Include="Images\viana.jpg" />
