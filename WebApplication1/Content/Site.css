@@ -2,7 +2,7 @@
     padding-top: 50px;
     padding-bottom: 20px;
     background-image:  url("/../Images/Layout/greenboard.png");
-    back
+    background-attachment: fixed;
 }
 
 /* Set padding to keep content from hitting the edges */
