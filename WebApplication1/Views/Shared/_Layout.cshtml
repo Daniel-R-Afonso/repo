@@ -13,10 +13,10 @@
 
     <script>
     $(document).ready(function () {
-        $(".cenas1").click(function () {
+        $(".cenas1").hover(function () {
             $("p").hide();
         });
-        $(".cenas2").click(function () {
+        $(".cenas2").hover(function () {
             $("p").show();
         });
     });
@@ -38,7 +38,7 @@
         </div>
     <div class="container body-content">
         @RenderBody()
-        <hr />
+        
         <footer></footer>
     </div>
 

@@ -206,6 +206,7 @@
     <Content Include="Images\vila_real.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="fonts\KatetheGreat.ttf" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\cvi_map_lib.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />

@@ -17,3 +17,9 @@ select,
 textarea {
     max-width: 280px;
 }
+
+p{
+    color : white;
+    font-family: sans-serif;
+
+}
