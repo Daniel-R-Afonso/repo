@@ -26,6 +26,11 @@ namespace WebApplication1.Controllers
             return View(Lit);
         }
 
+        public ActionResult Perfil()
+        {
+            return View();
+
+        }
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";
@@ -33,6 +38,7 @@ namespace WebApplication1.Controllers
 
             return View();
         }
+
 
         public ActionResult getDistrict(int IdDistrict)
         {
