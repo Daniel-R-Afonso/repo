@@ -3,24 +3,13 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewBag.Title - cenas</title>
+    <title>@ViewBag.Title - HomePage</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/Scripts/layout.js")
     @RenderSection("scripts", required: false)
-
-
-    <script>
-    $(document).ready(function () {
-        $(".cenas1").hover(function () {
-            $("p").hide();
-        });
-        $(".cenas2").hover(function () {
-            $("p").show();
-        });
-    });
-    </script>
 
 </head>
 <body>

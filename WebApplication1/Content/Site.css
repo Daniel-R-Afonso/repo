@@ -18,8 +18,12 @@ textarea {
     max-width: 280px;
 }
 
-p{
+.menu-1{
     color : white;
-    font-family: sans-serif;
-
+    font-family: katethegreat;
+    font-size: 28px;
+}
+@font-face{
+    font-family: katethegreat;
+    src: url("/fonts/KatetheGreat.ttf");
 }
