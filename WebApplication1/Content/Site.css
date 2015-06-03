@@ -1,4 +1,9 @@
-﻿body {
+﻿html,body{
+     height: 100%;
+}
+
+body {
+    position: relative;
     padding-top: 50px;
     padding-bottom: 20px;
     background-image:  url("/../Images/Layout/greenboard.png");
@@ -17,12 +22,20 @@ select,
 textarea {
     max-width: 280px;
 }
+footer{
+    position: absolute;
+    bottom: 0;
+}
+.container-livre {
 
-.menu-1{
+    height: 400px;
+}
+.menu{
     color : white;
     font-family: katethegreat;
-    font-size: 28px;
+    font-size: 30px;    
 }
+
 @font-face{
     font-family: katethegreat;
     src: url("/fonts/KatetheGreat.ttf");

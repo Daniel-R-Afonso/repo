@@ -1,9 +1,10 @@
 ﻿
 $(document).ready(function () {
-    $(".1").hover(function () {
-        $("p").hide();
+    $(".menu").mouseover(function () {
+        $("#menu-2-1").empty();
+        $("#menu-2-1").text("cenas!");
     });
-    $(".menu-1").click(function () {
+    $(".menu").click(function () {
         $("#menu-2-1").text("Hello world!");
     });
 });
