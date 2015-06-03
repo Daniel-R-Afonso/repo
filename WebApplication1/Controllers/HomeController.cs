@@ -31,11 +31,8 @@ namespace WebApplication1.Controllers
             return View();
 
         }
-        public ActionResult Contact()
+        public ActionResult Aulas()
         {
-            ViewBag.Message = "Your contact page.";
-            ViewBag.ImageURL = "~/Images/portugal23.gif";
-
             return View();
         }
 

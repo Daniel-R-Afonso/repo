@@ -1,12 +1,6 @@
 ﻿
 $(document).ready(function () {
-    $("#aulas").mouseover(function () {
-    });
-    $(".menu").click(function () {
-        $("#menu-2-1").text("Hello world!");
-
-    });
-
+ 
     $("#aulas").click(function () {
         $(".index-click").empty();
         var txt1 = $("<p class='text-center'></p>").text("Preparado?");
@@ -31,3 +25,12 @@ $(document).ready(function () {
         $(".index-click").append(txt1, txt2,txt3);
     });
 });
+
+function myFunc(id) {
+
+    $(".cenas").empty();
+    var txt1 = $("<p class='text-center'></p>").text("Vê como te tens safado");
+    var txt2 = $("<p class='text-center'></p>").text("E mostra aos teus amigos!");
+    var txt3 = $("<button type='button' class='btn btn-success'>Ver</button>");
+    $(".cenas").append(txt1, txt2, txt3);
+}
