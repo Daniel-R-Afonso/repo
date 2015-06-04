@@ -25,6 +25,7 @@ $(document).ready(function () {
         $(".index-click").append(txt1, txt2,txt3);
     });
 
+
     //cenas dos mapas
 
     cvi_map.defaultRadius = 0;	//INT 0-100 (px radius)

@@ -47,3 +47,7 @@ p {
     font-family: katethegreat;
     src: url("/fonts/KatetheGreat.ttf");
 }
+
+#informação-distritos, #mapa-distritos {
+    height: 700px;
+}
