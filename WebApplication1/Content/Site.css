@@ -28,6 +28,12 @@ footer{
 }
 .container-livre {
 
+<<<<<<< HEAD
+.menu-1{
+    color : blue;
+    font-family: katethegreat;
+    font-size: 30px;
+=======
     height: 400px;
 }
 
@@ -42,12 +48,79 @@ p {
     margin-left: auto;
     margin-right: auto;
 
+>>>>>>> 8a72f6700f5c2eb8d9bc815c9f1c6ece3f65a726
 }
 @font-face{
     font-family: katethegreat;
     src: url("/fonts/KatetheGreat.ttf");
 }
 
+<<<<<<< HEAD
 #informação-distritos, #mapa-distritos {
     height: 700px;
 }
+=======
+.teste{
+    position: relative;
+    left: 50px;
+    top: 40px;
+}
+
+.teste2{
+    position: relative;
+    left: 30px;
+    top: 40px;
+}
+
+.ha{
+    position: relative;
+    left: 55px;
+    top: 50px;
+}
+
+.hb{
+    position: relative;
+    left: 55px;
+    top: 50px;
+}
+
+.hc{
+    position: relative;
+    left: 55px;
+    top:  50px;
+}
+
+.hd{
+    position: relative;
+    left: 55px;
+    top:  50px;
+}
+
+.n1{
+    position: relative;
+    left: 350px;
+    top: 70px;
+}
+
+.n2{
+    position: relative;
+    left: 190px;
+    top:  20px;
+}
+
+.imag {
+    position:relative;
+    left: 100px;
+    top: 100px;
+
+}
+
+.select {
+    position:relative;
+    left: 150px;
+    top:  50px;
+
+}
+
+
+>>>>>>> origin/development
