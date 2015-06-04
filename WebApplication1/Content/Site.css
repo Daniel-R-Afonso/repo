@@ -27,14 +27,13 @@ footer{
     bottom: 0;
 }
 .container-livre {
+    height: 400px;
 
-<<<<<<< HEAD
+}
 .menu-1{
     color : blue;
     font-family: katethegreat;
     font-size: 30px;
-=======
-    height: 400px;
 }
 
 p {
@@ -48,18 +47,16 @@ p {
     margin-left: auto;
     margin-right: auto;
 
->>>>>>> 8a72f6700f5c2eb8d9bc815c9f1c6ece3f65a726
 }
 @font-face{
     font-family: katethegreat;
     src: url("/fonts/KatetheGreat.ttf");
 }
 
-<<<<<<< HEAD
 #informação-distritos, #mapa-distritos {
     height: 700px;
 }
-=======
+
 .teste{
     position: relative;
     left: 50px;
@@ -121,6 +118,3 @@ p {
     top:  50px;
 
 }
-
-
->>>>>>> origin/development

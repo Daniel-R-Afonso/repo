@@ -192,18 +192,13 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\bragaimg.png" />
+    <Content Include="Images\bragaimg.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-<<<<<<< HEAD
     <Content Include="Images\ba.jpg" />
-    <Content Include="Images\braga.gif" />
     <Content Include="Images\bragaimg.jpg" />
-    <Content Include="Images\bragança.jpg" />
-=======
->>>>>>> 8a72f6700f5c2eb8d9bc815c9f1c6ece3f65a726
     <Content Include="Images\Layout\greenboard.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -255,14 +250,10 @@
     <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\getDistrict.cshtml" />
-<<<<<<< HEAD
     <Content Include="Views\Home\Viana.cshtml" />
-    <Content Include="Views\Home\getConcelho.cshtml" />
     <Content Include="Views\Home\Testes.cshtml" />
-=======
     <Content Include="Views\Home\Perfil.cshtml" />
     <Content Include="Views\Home\Aulas.cshtml" />
->>>>>>> 8a72f6700f5c2eb8d9bc815c9f1c6ece3f65a726
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
