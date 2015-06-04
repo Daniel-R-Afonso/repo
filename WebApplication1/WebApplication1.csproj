@@ -192,11 +192,14 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\bragaimg.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Images\ba.jpg" />
     <Content Include="Images\braga.gif" />
+    <Content Include="Images\bragaimg.jpg" />
     <Content Include="Images\bragança.jpg" />
     <Content Include="Images\Layout\greenboard.png" />
     <Content Include="Images\mapa_regioes.png" />
