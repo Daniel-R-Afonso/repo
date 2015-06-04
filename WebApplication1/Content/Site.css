@@ -118,3 +118,17 @@ p {
     top:  50px;
 
 }
+
+.tabela {
+    position:relative;
+    left: 400px;
+    top:  150px;
+
+}
+
+.rank {
+    position:relative;
+    left: 450px;
+    top:  30px;
+
+}

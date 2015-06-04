@@ -11,6 +11,11 @@ namespace WebApplication1.Controllers
     public class HomeController : Controller
     {
         private DatabaseContext db = new DatabaseContext();
+        public ActionResult Ranking()
+        {
+            return View();
+        }
+
         public ActionResult Testes()
         {
             return View();
