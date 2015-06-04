@@ -192,17 +192,14 @@
   <ItemGroup>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Images\bragaimg.png" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Images\braga.gif" />
-    <Content Include="Images\bragança.jpg" />
+    <Content Include="Images\ba.jpg" />
+    <Content Include="Images\bragaimg.jpg" />
     <Content Include="Images\Layout\greenboard.png" />
-    <Content Include="Images\mapa_regioes.png" />
-    <Content Include="Images\portugal23.gif" />
-    <Content Include="Images\viana.jpg" />
-    <Content Include="Images\vila_real.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="fonts\KatetheGreat.ttf" />
@@ -221,10 +218,8 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\wz_jsgraphics.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Views\Home\images\eu.gif" />
-    <Content Include="Views\Home\images\portugal23.gif" />
-    <Content Include="Images\Viana do Castelo.jpg" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -236,7 +231,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
@@ -257,7 +251,9 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\getDistrict.cshtml" />
     <Content Include="Views\Home\Viana.cshtml" />
-    <Content Include="Views\Home\getConcelho.cshtml" />
+    <Content Include="Views\Home\Testes.cshtml" />
+    <Content Include="Views\Home\Perfil.cshtml" />
+    <Content Include="Views\Home\Aulas.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
