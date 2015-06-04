@@ -31,13 +31,16 @@ namespace WebApplication1.Controllers
             return View(Lit);
         }
 
-        public ActionResult Contact()
+        public ActionResult Perfil()
         {
-            ViewBag.Message = "Your contact page.";
-            ViewBag.ImageURL = "~/Images/portugal23.gif";
+            return View();
 
+        }
+        public ActionResult Aulas()
+        {
             return View();
         }
+
 
         public ActionResult getDistrict(int IdDistrict)
         {
