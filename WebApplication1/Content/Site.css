@@ -160,3 +160,9 @@ p {
     top:  -250px;
 
 }
+
+.avatar{
+    position: relative;
+    left: 65px;
+    top: 45px;
+}
