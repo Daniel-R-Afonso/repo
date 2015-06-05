@@ -200,6 +200,9 @@
     <Content Include="Images\ba.jpg" />
     <Content Include="Images\bragaimg.jpg" />
     <Content Include="Images\Layout\greenboard.png" />
+    <Content Include="Images\transparent1.png" />
+    <Content Include="Images\transparent2.png" />
+    <Content Include="Images\transparent3.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="fonts\KatetheGreat.ttf" />
