@@ -31,10 +31,16 @@ footer{
 
 }
 
-p , .tipo-letra , td{
+p , .tipo-letra{
     color : white;
     font-family: katethegreat;
     font-size: 30px;  
+}
+
+td {
+    color : white;
+    font-family: katethegreat;
+    font-size: 20px;
 }
 .index-click button{
     margin-top: 20px;
