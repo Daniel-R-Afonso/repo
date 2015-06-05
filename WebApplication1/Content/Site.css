@@ -30,13 +30,8 @@ footer{
     height: 400px;
 
 }
-.menu-1{
-    color : blue;
-    font-family: katethegreat;
-    font-size: 30px;
-}
 
-p {
+p , .tipo-letra , td{
     color : white;
     font-family: katethegreat;
     font-size: 30px;  
@@ -55,108 +50,4 @@ p {
 
 #informação-distritos, #mapa-distritos {
     height: 700px;
-}
-
-.teste{
-    position: relative;
-    left: 50px;
-    top: 40px;
-}
-
-.teste2{
-    position: relative;
-    left: 45px;
-    top: 55px;
-}
-
-.ha{
-    position: relative;
-    left: 55px;
-    top: 50px;
-}
-
-.hb{
-    position: relative;
-    left: 55px;
-    top: 50px;
-}
-
-.hc{
-    position: relative;
-    left: 55px;
-    top:  50px;
-}
-
-.hd{
-    position: relative;
-    left: 55px;
-    top:  50px;
-}
-
-.n1{
-    position: relative;
-    left: 380px;
-    top: 90px;
-}
-
-.n2{
-    position: relative;
-    left: 190px;
-    top:  90px;
-}
-
-.imag {
-    position:relative;
-    left: 100px;
-    top: 100px;
-
-}
-
-.select {
-    position:relative;
-    left: 150px;
-    top:  50px;
-
-}
-
-.tabela {
-    position:relative;
-    left: 300px;
-    top:  50px;
-
-}
-
-.rank {
-    position:relative;
-    left: 500px;
-    top:  30px;
-
-}
-
-.atualizar {
-    position:relative;
-    left: 400px;
-    top:  484px;
-
-}
-
-.limpar {
-    position:relative;
-    left: 400px;
-    top:  480px;
-
-}
-
-.imagem {
-    position:relative;
-    left: -750px;
-    top:  0px;
-
-}
-
-.imagem2 {
-    position:relative;
-    left: 250px;
-    top:  -250px;
-
 }
