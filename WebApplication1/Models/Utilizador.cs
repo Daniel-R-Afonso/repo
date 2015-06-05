@@ -19,8 +19,6 @@ namespace WebApplication1.Models
         public DateTime DataNascimento { get; set; }
         public int? NAulas { get; set; }
         public int? NTestes { get; set; }
-        public virtual ICollection<AulasConcelho> AulasConcelho { get; set; }
-        public virtual ICollection<AulasDistrito> AulasDistrito { get; set; }
         public virtual ICollection<PerguntasUtilizador> PerguntasUtilizador { get; set; }
         public virtual ICollection<AvatarUtilizador> AvatarUtilizador { get; set; }
     }

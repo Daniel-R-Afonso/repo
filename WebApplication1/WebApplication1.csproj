@@ -174,14 +174,10 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\AulasConcelho.cs" />
     <Compile Include="Models\DatabaseContext.cs" />
-    <Compile Include="Models\AulasDistrito.cs" />
     <Compile Include="Models\Avatar.cs" />
     <Compile Include="Models\AvatarUtilizador.cs" />
-    <Compile Include="Models\Concelho.cs" />
     <Compile Include="Models\DatabaseInitializer.cs" />
-    <Compile Include="Models\Distrito.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Pergunta.cs" />
     <Compile Include="Models\PerguntasUtilizador.cs" />
@@ -253,11 +249,10 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\getDistrict.cshtml" />
     <Content Include="Views\Home\Viana.cshtml" />
-    <Content Include="Views\Home\Testes.cshtml" />
     <Content Include="Views\Home\Perfil.cshtml" />
     <Content Include="Views\Home\Aulas.cshtml" />
     <Content Include="Views\Home\Ranking.cshtml" />
-    <Content Include="Views\Home\Teste2.cshtml" />
+    <Content Include="Views\Home\Testes.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -31,9 +31,12 @@ footer{
 
 }
 
-p , .tipo-letra{
+p,h1,h2,h3,h4,h5,h6, body, .tipo-letra, a{
     color : white;
     font-family: katethegreat;
+}
+
+ .tipo-letra{
     font-size: 30px;  
 }
 
