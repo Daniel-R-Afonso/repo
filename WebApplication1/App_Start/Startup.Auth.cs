@@ -7,9 +7,9 @@ using Microsoft.Owin.Security.DataProtection;
 using Microsoft.Owin.Security.Google;
 using Owin;
 using System;
-using WebApplication1.Models;
+using GeoAcademy.Models;
 
-namespace WebApplication1
+namespace GeoAcademy
 {
     public partial class Startup
     {

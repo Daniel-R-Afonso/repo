@@ -10,9 +10,9 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Owin;
-using WebApplication1.Models;
+using GeoAcademy.Models;
 
-namespace WebApplication1.Controllers
+namespace GeoAcademy.Controllers
 {
     [Authorize]
     public class AccountController : Controller

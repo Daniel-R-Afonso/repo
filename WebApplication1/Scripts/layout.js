@@ -33,7 +33,7 @@ $(document).ready(function () {
         var txt3 = $("<button type='button' id='ranking_button' class='btn btn-success' >Ver</button>");
         $(".index-click").append(txt1, txt2, txt3);
         $('#ranking_button').click(function () {
-            window.location = '../Home/Ranking';
+            window.location = '../Utilizadores/Ranking';
         });
     });
 

@@ -1,0 +1,60 @@
+﻿@model IEnumerable<GeoAcademy.Models.Utilizador>
+
+<div class="container-fluid">
+    <h1 class="tipo-letra text-center"> Classificação </h1>
+    <div class="row">
+        <div class="col-md-6 ">
+            <h2 class="text-center tipo-letra">Os mais pontuados</h2>
+            <hr />
+
+            <table class="table table-bordered">
+                <tr>
+                    <th class="text-center">
+                        @Html.DisplayNameFor(model => model.Nome)
+                    </th>
+                    <th class="text-center">
+                        @Html.DisplayNameFor(model => model.Pontos)
+                    </th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.Nome)
+                        </td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.Pontos)
+                        </td>
+                    </tr>
+                }
+            </table>
+</div>
+        <div class="col-md-6">
+            <h2 class="text-center tipo-letra">Os mais persistentes</h2>
+            <hr />
+            <table class="table table-bordered">
+                <tr>
+                    <th class="text-center">
+                        @Html.DisplayNameFor(model => model.Nome)
+                    </th>
+                    <th class="text-center">
+                        @Html.DisplayNameFor(model => model.NumTestes)
+                    </th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.Nome)
+                        </td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.NumTestes)
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+      </div>       
+</div>
