@@ -24,8 +24,8 @@ namespace GeoAcademy.Controllers
 
         public ActionResult Ranking(string sortOrder)
         {
-            ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "num_Pontos" : "";
-            ViewBag.DateSortParm = sortOrder == "Date" ? "date_desc" : "Date";
+            //ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "num_Pontos" : "";
+            //ViewBag.DateSortParm = sortOrder == "Date" ? "date_desc" : "Date";
             var users = from s in db.Utilizadors
                            select s;
             switch (sortOrder)

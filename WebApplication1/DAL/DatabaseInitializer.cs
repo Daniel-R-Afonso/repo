@@ -11,9 +11,9 @@ namespace GeoAcademy.Models
         protected override void Seed(DatabaseContext context)
         {
             var Utilizador = new List<Utilizador>{
-                new Utilizador{Nome="Daniel Afonso",DataNascimento=DateTime.Parse("1991-01-20"),Email="daniel_afonso@me.com",Idade=20,Genero="true",Password="12345678",NumTestes=1,NumAulas=1,Pontos=1},
-                new Utilizador{Nome="Rui Sousa",DataNascimento=DateTime.Parse("1991-01-20"),Email="daniel_afonso@me.com",Idade=20,Genero="true",Password="12345678",NumTestes=1,NumAulas=2,Pontos=2},
-                new Utilizador{Nome="Mario Pinto",DataNascimento=DateTime.Parse("1991-01-20"),Email="daniel_afonso@me.com",Idade=20,Genero="true",Password="12345678",NumTestes=3,NumAulas=2,Pontos=5}
+                new Utilizador{Nome="Daniel Afonso",DataNascimento=DateTime.Parse("1991-01-20"),Email="daniel_afonso@me.com",Idade=20,Genero="true",Password="12345678",NumTestes=30,NumAulas=20,Pontos=100},
+                new Utilizador{Nome="Rui Sousa",DataNascimento=DateTime.Parse("1991-01-20"),Email="daniel_afonso@me.com",Idade=20,Genero="true",Password="12345678",NumTestes=50,NumAulas=10,Pontos=200},
+                new Utilizador{Nome="Mario Pinto",DataNascimento=DateTime.Parse("1991-01-20"),Email="daniel_afonso@me.com",Idade=20,Genero="true",Password="12345678",NumTestes=5,NumAulas=2,Pontos=5}
             };
             foreach (var temp in Utilizador)
             {
