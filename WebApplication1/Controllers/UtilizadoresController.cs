@@ -24,23 +24,23 @@ namespace GeoAcademy.Controllers
 
         public ActionResult Ranking(string sortOrder)
         {
-            ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "name_desc" : "";
+            ViewBag.NameSortParm = String.IsNullOrEmpty(sortOrder) ? "num_Pontos" : "";
             ViewBag.DateSortParm = sortOrder == "Date" ? "date_desc" : "Date";
-            var students = from s in db.Utilizadors
+            var users = from s in db.Utilizadors
                            select s;
             switch (sortOrder)
             {
-                case "name_desc":
-                    students = students.OrderByDescending(s => s.Nome);
+                case "num_Pontos":
+                    users = users.OrderByDescending(s => s.Pontos);
                     break;
-                case "Date":
-                    students = students.OrderByDescending(s => s.Pontos);
+                case "num_Testes":
+                    users = users.OrderByDescending(s => s.NumTestes);
                     break;
                 default:
-                    students = students.OrderByDescending(s => s.Pontos);
+                    users = users.OrderByDescending(s => s.Pontos);
                     break;
             }
-            return View(students.ToList());
+            return View(users.ToList());
         }
 
         // GET: Utilizadores/Details/5
