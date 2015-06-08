@@ -172,6 +172,7 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PerguntasController.cs" />
     <Compile Include="Controllers\UtilizadoresController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -189,9 +190,9 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\Database1.mdf" />
-    <Content Include="App_Data\Database1_log.ldf">
-      <DependentUpon>Database1.mdf</DependentUpon>
+    <Content Include="App_Data\DatabaseContext.mdf" />
+    <Content Include="App_Data\DatabaseContext_log.ldf">
+      <DependentUpon>DatabaseContext.mdf</DependentUpon>
     </Content>
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -236,7 +237,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Account\_ChangePasswordPartial.cshtml" />
@@ -254,15 +254,10 @@
     <Content Include="Views\Account\ResetPassword.cshtml" />
     <Content Include="Views\Account\ResetPasswordConfirmation.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
-    <Content Include="Views\Home\getDistrict.cshtml" />
-    <Content Include="Views\Home\Perfil.cshtml" />
     <Content Include="Views\Home\Aulas.cshtml" />
     <Content Include="Views\Utilizadores\Ranking.cshtml" />
-    <Content Include="Views\Home\Testes.cshtml" />
-    <Content Include="Views\Utilizadores\Create.cshtml" />
-    <Content Include="Views\Utilizadores\Delete.cshtml" />
+    <Content Include="Views\Perguntas\Testes.cshtml" />
     <Content Include="Views\Utilizadores\Details.cshtml" />
-    <Content Include="Views\Utilizadores\Edit.cshtml" />
     <Content Include="Views\Utilizadores\Index.cshtml" />
   </ItemGroup>
   <ItemGroup />

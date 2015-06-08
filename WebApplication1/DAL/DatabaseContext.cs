@@ -14,7 +14,7 @@ namespace GeoAcademy.Models
         }
         //public DbSet<Avatar> Avatars { get; set; }
         //public DbSet<AvatarUtilizador> AvatarUtilizadors { get; set; }
-        //public DbSet<Pergunta> Perguntas { get; set; }
+        public DbSet<Pergunta> Perguntas { get; set; }
         //public DbSet<PerguntasUtilizador> PerguntasUtilizadors { get; set; }
         public DbSet<Utilizador> Utilizadors { get; set; }
 

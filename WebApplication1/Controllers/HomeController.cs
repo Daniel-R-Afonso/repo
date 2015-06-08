@@ -17,21 +17,11 @@ namespace GeoAcademy.Controllers
             return View();
         }
 
-        public ActionResult Testes()
-        {
-            return View();
-        }
-
         public ActionResult Index()
         {
             return View();
         }
 
-        public ActionResult Perfil()
-        {
-            return View();
-
-        }
         public ActionResult Aulas()
         {
             return View();
