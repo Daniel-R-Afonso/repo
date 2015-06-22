@@ -22,8 +22,10 @@ namespace GeoAcademy.Controllers
 
         public ActionResult Testes()
         {
-            return View(db.Perguntas.ToList());
+            var questions = db.Perguntas.ToArray();
+            return View(questions);
         }
+
         protected override void Dispose(bool disposing)
         {
             if (disposing)

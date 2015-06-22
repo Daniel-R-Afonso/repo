@@ -43,27 +43,18 @@ $(document).ready(function () {
     var pos = 0, test, test_status, question, choice, choices, chA, chB, chC, correct = 0;
 
     $(".começa-teste").click(function () {
-
         $(".zona-butoes").empty();
-  //      var txt2 = $("<button type='button' id='prox_button' class='btn btn-success'>Próxima Questão</button>");
-  //      $(".zona-butoes").append(txt2);
-        renderQuestion();
+        renderQuestion(); 
     });
-    //var array = @Html.Raw(Json.Encode(ViewBag.SomeEnumerable));
+    
 
-    var questions = [
-    ["What is 10 + 4?", "12", "14", "16", "B"],
-	["What is 20 - 9?", "7", "13", "11", "C"],
-	["What is 7 x 3?", "21", "24", "25", "A"],
-	["What is 8 / 2?", "10", "2", "4", "C"]
-    ];
 
     function _(x) {
         return document.getElementById(x);
     }
     
     function renderQuestion(){
-    
+        
         test = _("test");
         if(pos >= questions.length){
             test.innerHTML = "<h2>You got "+correct+" of "+questions.length+" questions correct</h2>";
@@ -72,6 +63,7 @@ $(document).ready(function () {
             correct = 0;
             return false;
         }
+
         _("test_status").innerHTML = "Question "+(pos+1)+" of "+questions.length;
         question = questions[pos][0];
         chA = questions[pos][1];
@@ -99,7 +91,5 @@ $(document).ready(function () {
    
 
 
-
-   
 });
 

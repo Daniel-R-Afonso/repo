@@ -36,7 +36,7 @@ namespace GeoAcademy.Models
 
             */
             var Pergunta = new List<Pergunta>{
-                new Pergunta{Descricao="Qual a area de Braga?",Distrito=1,RespostaCorrecta="	183,4 km2" , RespostaErrada1="200,3 km2", RespostaErrada2="180km2",RespostaErrada3="190km2"},
+                new Pergunta{Descricao="Qual a area de Braga?",Distrito=1,RespostaCorrecta="183,4 km2", RespostaErrada1="200,3 km2", RespostaErrada2="180km2",RespostaErrada3="190km2"},
                 new Pergunta{Descricao="Qual destes concelhos não pertence a Braga?",Distrito=1,RespostaCorrecta="Paços de Ferreira",RespostaErrada1="Barcelos",RespostaErrada2="Braga",RespostaErrada3="Esposende"},
                 new Pergunta{Descricao="Qual destes monumentos pertence a Braga?",Distrito=1,RespostaCorrecta="Bom Jesus",RespostaErrada1="Mosteiro dos Jerónimos",RespostaErrada2="Santa Luzia",RespostaErrada3="Torre dos Clérigos"}
             };
