@@ -1,0 +1,48 @@
+﻿@model IEnumerable<GeoAcademy.Models.Utilizador>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4 ">
+            <div class="container-fluid container-livre-200px"></div>
+            <div class="container-fluid">
+                <h2 class="tipo-letra text-center">@Html.ActionLink("Os mais pontuados", "Ranking", new { sortOrder = "num_Pontos" }) </h2>
+            </div>
+            <hr />
+            <div class="container-fluid">
+                <h2 class="tipo-letra text-center">@Html.ActionLink("Os mais persistentes","Ranking",new {sortOrder = "num_Testes"})</h2>
+            </div>
+           </div>
+        <div class="col-md-8">
+            <div class="container-fluid container-livre-100px"></div>
+            <h1 class="tipo-letra text-center"> Classificação </h1>    
+            <table class="table table-bordered">
+                <tr>
+                    <th class="text-center">
+                        @Html.DisplayNameFor(model => model.Nome)
+                    </th>
+                    <th class="text-center">
+                        @Html.DisplayNameFor(model => model.Pontos)
+                    </th>
+                    <th class="text-center">
+                        @Html.DisplayNameFor(model => model.NumTestes)
+                    </th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.Nome)
+                        </td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.Pontos)
+                        </td>
+                        <td class="text-center">
+                            @Html.DisplayFor(modelItem => item.NumTestes)
+                        </td>
+                    </tr>
+                }
+            </table>
+        </div>
+      </div>       
+</div>

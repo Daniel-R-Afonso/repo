@@ -9,8 +9,9 @@
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @Scripts.Render("~/Scripts/layout.js")
-    @Scripts.Render("~/Scripts/mapper.js") <!-- Depois meter os renders com um render proprio-->
-    @Scripts.Render("~/Scripts/cvi_")
+    @Scripts.Render("~/Scripts/mapper.js") <!-- Depois meter os renders com só para as aulas-->
+    @Scripts.Render("~/Scripts/cvi_map_lib.js") <!-- Mesma cena-->
+    @Scripts.Render("~/Scripts/maputil.js") <!-- Mesma cena -->
     @RenderSection("scripts", required: false)
 
 </head>
@@ -24,12 +25,16 @@
                     <span class="icon-bar"></span>
                 </button>
             </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>@Html.ActionLink("Menu Principal", "Index", "")</li>
+                    </ul>
                 @Html.Partial("_LoginPartial")           
-            </div>
-        </div>
+            </div>       
+     </div>
+   </div>
     <div class="container body-content">
-        @RenderBody()
-        
+        @RenderBody()       
         <footer></footer>
     </div>
 

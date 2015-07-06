@@ -30,16 +30,26 @@ footer{
     height: 400px;
 
 }
-.menu-1{
-    color : blue;
-    font-family: katethegreat;
-    font-size: 30px;
+.container-livre-200px {
+    height: 200px;
 }
 
-p {
+.container-livre-100px {
+    height: 100px;
+}
+p,h1,h2,h3,h4,h5,h6, body, .tipo-letra, a{
     color : white;
     font-family: katethegreat;
+}
+
+ .tipo-letra{
     font-size: 30px;  
+}
+
+td {
+    color : white;
+    font-family: katethegreat;
+    font-size: 20px;
 }
 .index-click button{
     margin-top: 20px;
@@ -55,66 +65,4 @@ p {
 
 #informação-distritos, #mapa-distritos {
     height: 700px;
-}
-
-.teste{
-    position: relative;
-    left: 50px;
-    top: 40px;
-}
-
-.teste2{
-    position: relative;
-    left: 30px;
-    top: 40px;
-}
-
-.ha{
-    position: relative;
-    left: 55px;
-    top: 50px;
-}
-
-.hb{
-    position: relative;
-    left: 55px;
-    top: 50px;
-}
-
-.hc{
-    position: relative;
-    left: 55px;
-    top:  50px;
-}
-
-.hd{
-    position: relative;
-    left: 55px;
-    top:  50px;
-}
-
-.n1{
-    position: relative;
-    left: 350px;
-    top: 70px;
-}
-
-.n2{
-    position: relative;
-    left: 190px;
-    top:  20px;
-}
-
-.imag {
-    position:relative;
-    left: 100px;
-    top: 100px;
-
-}
-
-.select {
-    position:relative;
-    left: 150px;
-    top:  50px;
-
 }
