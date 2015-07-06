@@ -15,14 +15,9 @@ namespace GeoAcademy.Controllers
         private DatabaseContext db = new DatabaseContext();
 
         // GET: Perguntas
-        public ActionResult Index()
-        {
-            return View(db.Perguntas.ToList());
-        }
-
         public ActionResult Testes()
         {
-            var questions = db.Perguntas.ToArray();
+            var questions = db.Perguntas.ToList();
             return View(questions);
         }
 
